@@ -39,7 +39,7 @@ async def song(client, message):
         views = results[0]["views"]
     except Exception as e:
         print(str(e))
-        return await m.edit("Example: /song vaa vaathi song")
+        return await m.edit("Example: /song ZEROBASEONE BLOOD song")
                 
     await m.edit("**dσwnlσαdíng чσur ѕσng...!**")
     try:
